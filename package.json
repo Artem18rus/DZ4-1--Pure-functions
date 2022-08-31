@@ -30,6 +30,7 @@
     "live-server": "^1.2.2"
   },
   "dependencies": {
-    "core-js": "^3.25.0"
+    "core-js": "^3.25.0",
+    "npm": "^8.18.0"
   }
 }
