@@ -1,12 +1,10 @@
 // eslint-disable-next-line consistent-return
-export default function total(purchases) {
-  if (purchases.health > 50) {
+export default function total(incoming) {
+  if (incoming.health > 50) {
     return 'healthy';
   }
-  if (purchases.health <= 50 && purchases.health > 15) {
+  if (incoming.health <= 50 && incoming.health > 15) {
     return 'wounded';
   }
-  if (purchases.health < 15) {
-    return 'critical';
-  }
+  return 'critical';
 }
